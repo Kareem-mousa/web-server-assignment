@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
 
         const student = {
             name: "Kareem Mousa",
-            studentID: "123456"
+            studentID: "12323798"
         };
 
         res.writeHead(200, {"Content-Type": "application/json"});
@@ -34,4 +34,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(3000, () => {
     console.log("Server running on port 3000");
+
 });
